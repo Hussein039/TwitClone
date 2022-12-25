@@ -1,0 +1,184 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1da1f2;
+    color: white;
+    height: 56px;
+    padding: 0 16px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header button {
+    font-size: 16px;
+    background-color: white;
+    color: #1da1f2;
+    border: 1px solid #1da1f2;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0;
+  }
+  
+  header p {
+    margin: 0;
+    font-size: 16px;
+    margin-left: 16px;
+  }
+  
+  
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 20px;
+  }
+  
+  form textarea {
+    font-size: 16px;
+    line-height: 20px;
+    height: 80px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    resize: none;
+  }
+  
+  form button {
+    font-size: 16px;
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: #1da1f2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  
+  aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+  }
+  
+  aside img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+  }
+  
+  aside h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  aside button {
+    font-size: 16px;
+    background-color: white;
+    color: #1da1f2;
+    border: 1px solid #1da1f2;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 8px 0;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  section h2 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  section form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  section form textarea {
+    font-size: 16px;
+    line-height: 20px;
+    height: 80px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    resize: none;
+    flex-grow: 1;
+    margin-right: 8px;
+  }
+  
+  section form button {
+    font-size: 16px;
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section ul li {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  section ul li img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
